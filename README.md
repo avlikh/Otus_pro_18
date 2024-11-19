@@ -509,3 +509,46 @@ Nov 19 18:07:22 selinux systemd[1]: Started The nginx HTTP and reverse proxy ser
   - Для удаления модуля воспользуемся командой: `semodule -r nginx`
 ---
 ### 3. Обеспечение работоспособности приложения при включенном SELinux
+
+Выходим из предыдущего домашнего задания 2 раза набрав `exit`  
+Зайдите в папку с проектом ДЗ 2 (в нашем примере **/opt/otus/SELinux/dns**)
+```
+cd /opt/otus/SELinux/dns
+```
+**Запустите проект из папки:**
+```
+vagrant up
+```
+Результатом выполнения команды vagrant up станет созданные 2 виртуальных машины: **ns01** и **client**.   
+   
+Посмотреть имена виртуальных машин можно командой:
+
+```
+vagrant status
+```
+
+<details>
+<summary> результат выполнения команды: </summary>
+
+```
+Current machine states:
+
+ns01                      running (virtualbox)
+client                    running (virtualbox)
+
+This environment represents multiple VMs. The VMs are all listed
+above with their current state. For more information about a specific
+VM, run `vagrant status NAME`.
+
+```
+
+</details>
+    
+**Зайдите в виртуальную машину (box) с именем: client**
+```
+vagrant ssh client
+```
+  - Дальнейшие действия выполняются от пользователя root. Переходим в root пользователя:
+```
+sudo -i
+```

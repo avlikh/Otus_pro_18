@@ -889,4 +889,6 @@ restorecon reset /etc/named/named.50.168.192.rev context system_u:object_r:named
 ```
 
 </details>
+
   - Примечание: после выполнения команды мы снова не сможем вносить изменения в DNS-зону.
+

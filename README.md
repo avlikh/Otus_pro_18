@@ -24,7 +24,7 @@
 ```
 mkdir -p /opt/otus/SELinux ; cd /opt/otus/SELinux
 ```
-  - Клонируете проект с Github, набрав команду:
+  - Клонируйте проект с Github, набрав команду:
 ```
 apt update -y && apt install git -y ; git clone https://github.com/avlikh/Otus_pro_18.git;
 ```

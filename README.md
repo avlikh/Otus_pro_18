@@ -28,7 +28,7 @@ mkdir -p /opt/otus/SELinux ; cd /opt/otus/SELinux
 ```
 apt update -y && apt install git -y ; git clone https://github.com/avlikh/Otus_pro_18.git;
 ```
-  - В результате, после выполнения предыдущей команды получим 2 папки с подготовленными vagrant стендами для заданий 2 и 3
+  - В результате, после выполнения предыдущей команды, получим 2 папки с подготовленными vagrant стендами для заданий 2 и 3
     
     **В нашем примере:**
   -  в папке **/opt/otus/SELinux/nginx** находится Vagrant-стенд для выполнения **ДЗ 2** (nginx на нестандартном порту)

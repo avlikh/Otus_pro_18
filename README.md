@@ -26,7 +26,7 @@ mkdir -p /opt/otus/SELinux ; cd /opt/otus/SELinux
 ```
   - Клонируйте проект с Github, набрав команду:
 ```
-apt update -y && apt install git -y ; git clone https://github.com/avlikh/Otus_pro_18.git;
+apt update -y && apt install git -y ; git clone https://github.com/avlikh/Otus_pro_18.git .
 ```
   - В результате, после выполнения предыдущей команды, получим 2 папки с подготовленными vagrant стендами для заданий 2 и 3
     
